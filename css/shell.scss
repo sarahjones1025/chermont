@@ -1,0 +1,128 @@
+body{
+	font-family: Arial;
+	color: #494949;
+}
+
+.clear{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	color: #f26c4f;
+}
+
+a:hover{
+	color: #f26c4f;
+}
+
+a:active{
+	color: yellow;
+}
+
+a:visited{
+	color: #0068cb;
+}
+
+
+
+h1{
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+h2{
+	font-size: .9em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+p{
+	font-size: .9em;
+}
+
+p a{
+	font-weight: bold;
+}
+
+header{
+	padding: 0 11.7%;
+
+}
+
+.wrapper{
+	padding: 0 11.7%;
+	position: relative;
+}
+
+.top-navigation{
+	text-align: right;
+}
+
+.top-navigation ul{
+    padding: 37px 0 0 0;
+    margin: 0;
+}
+
+.top-navigation li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 0 0 50px;
+}
+
+.top-navigation a{
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	font-size: .75em;
+	font-weight: normal;
+}
+
+.top-navigation a:hover{
+color: #f26c4f;
+}
+
+.top-navigation a:active{
+	color: yellow;
+}
+
+.top-navigation a:visited{
+	color: #0068cb;
+}
+
+footer{
+	padding: 0 11.7%;
+}
+
+.bottom-navigation{
+	text-align: right;
+}
+
+.bottom-navigation ul{
+	padding: 0;
+}
+
+.bottom-navigation li{
+	list-style: none;
+	display: inline-block;
+}
+
+.bottom-navigation a{
+	color: #494949;
+	text-transform: uppercase;
+	display: block;
+	font-size: .75em;
+	padding-left: 10px;
+}
+
+.bottom-navigation a:hover{
+	color: #f26c4f;
+}
+
+.bottom-navigation a:active{
+	color: yellow;
+}
+
+.bottom-navigation a:visited{
+	color: #0068cb;
+}

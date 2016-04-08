@@ -1,0 +1,114 @@
+/*******info.html*******/
+
+.info-header{
+	height: 335px;
+  	background-image: url(../img/info-center-header.png);
+ 	background-repeat:no-repeat;
+ 	background-size: cover;
+ 	position: relative;
+ }
+
+ .stats{
+ 	position: absolute;
+ 	top: 40px;
+ 	left: 135px;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	font-size: .75em;
+ }
+
+.stats div{
+	display: inline-block;
+}
+
+#daybox{
+	padding-right: 70px;
+}
+
+#clockbox{
+	display: block;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.average-temp tr:nth-child(3) td{
+	border-top: solid 1px #fff;
+	padding-top: 10px;
+}
+
+.average-temp td:last-child{
+	text-align: right;
+}
+
+.average-temp tr:nth-child(2) td{
+	padding-bottom: 5px;
+}
+
+.headlines a, .institutions a, .board-mtgs a{
+	font-weight: bold;
+}
+
+.headlines p, .institutions p{
+	margin-top: 0;
+}
+
+.headlines, .institutions, .board-mtgs, .facilities {
+	border-top: solid 1px #494949;
+	margin-top: 20px;
+}
+
+.important-content{
+	float: left;
+	width: 48%;
+}
+
+.board-mtgs, .facilities{
+	float: left;
+	width: 23%;
+	margin-left: 3%;
+}
+
+.facilities ul{
+	padding-left: 0;
+}
+
+.facilities li{
+	list-style: none;
+	text-decoration: underline;
+	font-size: .9em;
+	line-height: 1.4;
+}
+
+.headlines h2, .institutions h2, .facilities h2{
+	margin-bottom: 25px;
+}
+
+.board-schedule{
+	background-color: #494949;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: .9em;
+	padding: 45px 15px;
+}
+
+.board-schedule table{
+
+}
+
+.board-mtgs table tr:nth-child(even){
+	font-size: .8em;
+}
+
+.mtg-location td{
+	padding-bottom: 15px;
+}
+
+.mtg-time td:first-child{
+	width: 70px;
+}

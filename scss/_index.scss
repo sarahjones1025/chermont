@@ -1,78 +1,97 @@
-/******index.html******/
-
-.top-navigation li:nth-child(2){
-	padding: 0 20px 0 70px;
-}
-
 .index-header {
-    height: 340px;
-    background-image: url(../img/index-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+	    background-image: url(../img/index-background.jpg);
+	    background-repeat: no-repeat;
+	
+	    h1{
+	    	color: #fff;
+	    	font-size: 1.5em;
+	    	text-align: center;
+	    }
+	}
 
-h1:first-child{
-	margin: 35px 0 55px 0;
-}
 
-.home, .info-center, .newsroom, .contact{
-	float: left;
-	width: 22%;
-	border-top: solid 1px #494949;
-	margin-right: 3%;
-}
 
-.contact{
-	margin-right: 0;
-	padding-right: 3%;
-}
 
-.home h2, .info-center h2, .newsroom h2, .contact h2{
-	margin-bottom: 30px;
-	color: #f26c4f;
-}
 
-.home p, .info-center p, .newsroom p, .contact p{
-	width: 83%;
-}
 
-.info-center p:nth-child(even){
-	margin-bottom: 0;
-}
+// Below is the fully functioning desktop size of this page
 
-.info-center p:nth-child(odd){
-	margin-top: 0;
-}
+@media screen and (min-width: 1280px){
 
-.newsroom p:nth-child(4){
-	margin: 20px 0 0 0;
-}
+	.top-navigation li:nth-child(2){
+		padding: 0 20px 0 70px;
+	}
 
-.newsroom p:last-child{
-	margin: 0 0 20px 0;
-}
+	.index-header {
+	    height: 340px;
+	    background-image: url(../img/index-background.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
 
-.contact a:nth-child(4){
-	font-size: .9em;
-	font-weight: bold;
-	text-transform: uppercase;
-}
+	h1:first-child{
+		margin: 35px 0 55px 0;
+	}
 
-.community{
-	background-color: #f26c4f;
-    padding: 15px 4px 10px 25px;
-    width: 47%;
-    float: right;
-    margin-bottom: 30px;
-    margin-top: 35px;
-}
+	.home, .info-center, .newsroom, .contact{
+		float: left;
+		width: 22%;
+		border-top: solid 1px #494949;
+		margin-right: 3%;
+	}
 
-.community h2{
-	margin: 0;
-}
+	.contact{
+		margin-right: 0;
+		padding-right: 3%;
+	}
 
-.community p{
-	line-height: 2;
-	padding: 0;
-	margin: 5px 0 0 0;
+	.home h2, .info-center h2, .newsroom h2, .contact h2{
+		margin-bottom: 30px;
+		color: #f26c4f;
+	}
+
+	.home p, .info-center p, .newsroom p, .contact p{
+		width: 83%;
+	}
+
+	.info-center p:nth-child(even){
+		margin-bottom: 0;
+	}
+
+	.info-center p:nth-child(odd){
+		margin-top: 0;
+	}
+
+	.newsroom p:nth-child(4){
+		margin: 20px 0 0 0;
+	}
+
+	.newsroom p:last-child{
+		margin: 0 0 20px 0;
+	}
+
+	.contact a:nth-child(4){
+		font-size: .9em;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.community{
+		background-color: #f26c4f;
+	    padding: 15px 4px 10px 25px;
+	    width: 47%;
+	    float: right;
+	    margin-bottom: 30px;
+	    margin-top: 35px;
+	}
+
+	.community h2{
+		margin: 0;
+	}
+
+	.community p{
+		line-height: 2;
+		padding: 0;
+		margin: 5px 0 0 0;
+	}
 }

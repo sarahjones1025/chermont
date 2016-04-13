@@ -51,7 +51,7 @@ fieldset{
 	background-color: #fff;
 	-webkit-appearance: none;
 	border-radius: 0;
-	border-color: $border;
+	border-color: #b7b7b7;
 }
 
 #email{
@@ -96,7 +96,7 @@ fieldset{
 	height: 24px;
 	width: 346px;
 	border-radius: 0;
-	border-color: $border;
+	border-color: #b7b7b7;
 }
 
 #zip{
@@ -116,9 +116,9 @@ fieldset{
 .submit-button{
 	-webkit-appearance: none;
 	background-color: #fff;
-	border: solid 1px $border;
+	border: solid 1px #b7b7b7;
 	padding: 5px 7px;
-	color: $grey;
+	color: #494949;
 	font-size: .7em;
 	margin-left: 330px;
 }
@@ -140,7 +140,7 @@ fieldset{
 		padding: 5%;
 		margin: 15px auto;
 		background: white;
-		border: solid 1px $border;
+		border: solid 1px #b7b7b7;
 	}
 }
 

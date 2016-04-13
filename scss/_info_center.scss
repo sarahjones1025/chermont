@@ -1,114 +1,119 @@
-/*******info.html*******/
-
 .info-header{
-	height: 335px;
-  	background-image: url(../img/info-center-header.png);
- 	background-repeat:no-repeat;
- 	background-size: cover;
- 	position: relative;
- }
-
- .stats{
- 	position: absolute;
- 	top: 40px;
- 	left: 135px;
- 	color: #fff;
- 	text-transform: uppercase;
- 	font-size: .75em;
- }
-
-.stats div{
-	display: inline-block;
+	position: relative;
 }
 
-#daybox{
-	padding-right: 70px;
-}
+@media screen and (min-width: 1280px){
 
-#clockbox{
-	display: block;
-	text-align: center;
-	font-size: 2.5em;
-	padding: 20px;
-}
+	.info-header{
+		height: 335px;
+	  	background-image: url(../img/info-center-header.png);
+	 	background-repeat:no-repeat;
+	 	background-size: cover;
+	 	position: relative;
+	 }
 
-table{
-	border-collapse: collapse;
-	width: 100%;
-}
+	 .stats{
+	 	position: absolute;
+	 	top: 40px;
+	 	left: 135px;
+	 	color: #fff;
+	 	text-transform: uppercase;
+	 	font-size: .75em;
+	 }
 
-.average-temp tr:nth-child(3) td{
-	border-top: solid 1px #fff;
-	padding-top: 10px;
-}
+	.stats div{
+		display: inline-block;
+	}
 
-.average-temp td:last-child{
-	text-align: right;
-}
+	#daybox{
+		padding-right: 70px;
+	}
 
-.average-temp tr:nth-child(2) td{
-	padding-bottom: 5px;
-}
+	#clockbox{
+		display: block;
+		text-align: center;
+		font-size: 2.5em;
+		padding: 20px;
+	}
 
-.headlines a, .institutions a, .board-mtgs a{
-	font-weight: bold;
-}
+	table{
+		border-collapse: collapse;
+		width: 100%;
+	}
 
-.headlines p, .institutions p{
-	margin-top: 0;
-}
+	.average-temp tr:nth-child(3) td{
+		border-top: solid 1px #fff;
+		padding-top: 10px;
+	}
 
-.headlines, .institutions, .board-mtgs, .facilities {
-	border-top: solid 1px #494949;
-	margin-top: 20px;
-}
+	.average-temp td:last-child{
+		text-align: right;
+	}
 
-.important-content{
-	float: left;
-	width: 48%;
-}
+	.average-temp tr:nth-child(2) td{
+		padding-bottom: 5px;
+	}
 
-.board-mtgs, .facilities{
-	float: left;
-	width: 23%;
-	margin-left: 3%;
-}
+	.headlines a, .institutions a, .board-mtgs a{
+		font-weight: bold;
+	}
 
-.facilities ul{
-	padding-left: 0;
-}
+	.headlines p, .institutions p{
+		margin-top: 0;
+	}
 
-.facilities li{
-	list-style: none;
-	text-decoration: underline;
-	font-size: .9em;
-	line-height: 1.4;
-}
+	.headlines, .institutions, .board-mtgs, .facilities {
+		border-top: solid 1px #494949;
+		margin-top: 20px;
+	}
 
-.headlines h2, .institutions h2, .facilities h2{
-	margin-bottom: 25px;
-}
+	.important-content{
+		float: left;
+		width: 48%;
+	}
 
-.board-schedule{
-	background-color: #494949;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: .9em;
-	padding: 45px 15px;
-}
+	.board-mtgs, .facilities{
+		float: left;
+		width: 23%;
+		margin-left: 3%;
+	}
 
-.board-schedule table{
+	.facilities ul{
+		padding-left: 0;
+	}
 
-}
+	.facilities li{
+		list-style: none;
+		text-decoration: underline;
+		font-size: .9em;
+		line-height: 1.4;
+	}
 
-.board-mtgs table tr:nth-child(even){
-	font-size: .8em;
-}
+	.headlines h2, .institutions h2, .facilities h2{
+		margin-bottom: 25px;
+	}
 
-.mtg-location td{
-	padding-bottom: 15px;
-}
+	.board-schedule{
+		background-color: #494949;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: .9em;
+		padding: 45px 15px;
+	}
 
-.mtg-time td:first-child{
-	width: 70px;
+	.board-schedule table{
+
+	}
+
+	.board-mtgs table tr:nth-child(even){
+		font-size: .8em;
+	}
+
+	.mtg-location td{
+		padding-bottom: 15px;
+	}
+
+	.mtg-time td:first-child{
+		width: 70px;
+	}
 }
